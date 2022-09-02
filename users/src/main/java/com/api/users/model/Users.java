@@ -1,6 +1,8 @@
-package com.api.users.domain;
+package com.api.users.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,6 +11,9 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 
 @Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Users {
 
     @Id
