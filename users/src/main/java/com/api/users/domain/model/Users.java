@@ -1,4 +1,4 @@
-package com.api.users.model;
+package com.api.users.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -24,5 +24,5 @@ public class Users {
     private String name;
 
     @NotBlank
-    private Integer cpf;
+    private String cpf;
 }

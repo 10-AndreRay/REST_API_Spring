@@ -1,6 +1,6 @@
-package com.api.users.repository;
+package com.api.users.domain.model.repository;
 
-import com.api.users.model.Users;
+import com.api.users.domain.model.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
